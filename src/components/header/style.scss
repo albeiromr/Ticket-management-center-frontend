@@ -1,0 +1,63 @@
+@import "../../sass/_variables";
+
+.header {
+  width: 100%;
+  height: 5.437vw;
+  background: white;
+  box-shadow: 0px 2px 5px #56565625;
+  position: relative;
+
+  &__logo {
+    width: 10.662%;
+    position: absolute;
+    top: 12.643%;
+    left: 3.687%;
+  }
+
+  &__profile-container {
+    width: auto;
+    min-width: 5.75%;
+    height: 65.517%;
+    position: absolute;
+    top: 17.241%;
+    right: 3.575%;
+    //background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__profile-icon {
+    height: 100%;
+  }
+
+  &__profile-text-container {
+    width: auto;
+    height: 84.964%;
+    //background: cornsilk;
+    margin-left: .7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__profile-name {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: clamp(14px, 1.125vw, 22px);
+    color: $smooth-dark-text;
+  }
+
+  &__profile-rol {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    font-family: $lato;
+    font-weight: 500;
+    font-size: clamp(14px, 1.125vw, 22px);
+    color: $main-gray-color;
+  }
+}
