@@ -1,0 +1,30 @@
+@import "../../sass/_variables";
+
+@media only screen and (min-width: 1000px) and (max-width: 1920px) {
+  .main-container {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    min-height: 100vh;
+    background: $app-background;
+    margin: 0 auto;
+
+    &__footer {
+      width: 100%;
+      height: 20.812vw;
+      background: $footer-color;
+    }
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .main-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .main-container {
+    display: none;
+  }
+}
